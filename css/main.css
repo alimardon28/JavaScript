@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 1400px;
+    padding:0px 20px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url(../img/the-town-bg-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.header .navigationBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 35px;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background:linear-gradient(10deg , #F2AD8C ,#F5B188 ,#E29881 100% ,#E29881);
+}
+
+.headerLink{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    text-transform:capitalize;
+}
+
+.navbar{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list .item{
+    margin-left: 24px;
+    padding: 0;
+}
+
+.list .item .item__link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform:capitalize;
+}
+
+.headerCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.headerCenter-heading{
+    font-size: 45px;
+    text-transform: capitalize;
+    text-shadow: 6px 6px 10px #080808;
+    margin: 0;
+    padding: 0;
+}
+
+.headerCenter-desc{
+    margin-top: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 40px;
+}
+
+#span{
+    width: 65px;
+    height: 65px;
+    background-color: #fff;
+    margin-top: 190px;
+    padding: 5px 9px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.bi-play{
+    font-size:50px;
+    color: #dc8267;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
