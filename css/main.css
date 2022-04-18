@@ -219,6 +219,73 @@ body{
     margin-top: 25px;
 }
 
+.ourwork{
+    padding-top: 130px;
+    margin: 0 auto;
+}
 
+.ourwork__section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ourwork__top{
+    text-align: center;
+}
+
+.ourwork__top-heading{
+    font-size: 50px;
+    text-transform: capitalize;
+    color: rgb(0, 166, 255);
+}
+
+.ourwork__top-desc{
+    opacity: 0.6;
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.ourwork__gallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top:70px;
+    flex-wrap: wrap;
+}
+
+.ourwork__gallery img:nth-child(odd){
+    margin-left: 25px;
+}
+
+.ourwork__gallery img:nth-child(even){
+    margin-left: 25px;
+}
+#ourwork__spanBox{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.ourwork__gallery-span{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color:rgb(0, 166, 255);
+    display: block;
+}
+
+.ourwork__gallery-span:nth-child(2){
+    margin:0px 20px 0px 20px;
+    background-color: #cdcdcd;
+}
+
+.ourwork__gallery-span:nth-child(3){
+    background-color: #cdcdcd;
+}
 
 /* MAIN CSS END */
