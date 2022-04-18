@@ -288,4 +288,139 @@ body{
     background-color: #cdcdcd;
 }
 
+.contactus{
+    padding-top: 80px;
+}
+
+.contactus__section{
+    background-image: url(../img/the-town-bg-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contactus__section-top{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 100px 0px 0px 120px;
+}
+
+.contact__us{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__us-heading{
+    text-transform: capitalize;
+    font-size: 40px;
+    line-height: 50px;
+    border-bottom: 2px solid #fff;
+    display:block;
+    color: #fff;
+}
+
+.contac__us-desc{
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+.contact__us-mobile{
+    display: flex;
+    padding-top: 40px;
+}
+
+.contact-mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact__us-mobile-span .fa-phone-flip{
+   font-size: 40px;
+   color: #fff;
+   margin-right: 20px;
+}
+
+.contact__us-mobile-desc{
+    color: #fff;
+    font-size:15px;
+}
+
+.contact-email{
+    display: flex;
+    align-items: center;
+    margin-left: 234px;
+}
+
+.fa-envelope ,.bi-geo-alt{
+    font-size: 40px;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.contact__us-email-desc,.contact-maps-desc{
+    color: #fff;
+    font-size:15px;
+}
+
+.contact-us__maps{
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+}
+.contact-maps{
+    display: flex;
+    align-items: center;
+}
+
+
+.contact-user{
+    margin-left: 210px;
+}
+
+.contact-user .contact-form{
+   margin: 0;
+   padding: 0;
+}
+
+.contact-user-input{
+    width: 200px;
+    height: 40px;
+    background: none;
+    border: 2px solid rgb(157, 157, 157);
+    outline: none;
+    border-radius: 5px;
+    padding: 3px 13px;
+    margin-right: 5px;
+}
+
+.contact-user-input::placeholder{
+   color: #fff;
+}
+
+.contact-user-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* MAIN CSS END */
