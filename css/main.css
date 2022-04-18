@@ -17,6 +17,8 @@ body{
     margin: 0 auto;
 }
 
+/* HEADER CSS START */
+
 .header{
     background-image: url(../img/the-town-bg-01.jpg);
     background-position: center;
@@ -24,6 +26,7 @@ body{
     background-repeat: no-repeat;
     min-height: 100vh;
     width: 100%;
+    object-fit: cover;
 }
 
 .header .navigationBar{
@@ -113,3 +116,64 @@ body{
     margin: 0;
     padding: 0;
 }
+
+/* HEADER CSS END */
+
+/* MAIN CSS START */
+.main{
+    padding-top: 80px;
+    margin: 0;
+}
+
+.introduction .introduction__intro{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.introduction__intro img{
+    display: inline-block;
+    text-align: center;
+    margin-left: 60px;
+    object-fit: cover;
+}
+
+.introduction__left{
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.introduction__left-heading{
+    font-size: 30px;
+    line-height: 80px;
+    text-transform: capitalize;
+    color: rgb(0, 136, 255);
+}
+
+.introduction__left-desc{
+   opacity: 0.6;
+   font-size: 18px;
+   line-height: 30px;
+}
+
+.introduction__left-desc .temp{
+    opacity: 1;
+    color: rgb(0, 136, 255);
+}
+
+.introduction__left-btn{
+    width: 130px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: rgb(0, 128, 255);
+    color: #fff;
+    padding: 10px 15px;
+    margin-top: 50px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+/* MAIN CSS END */
